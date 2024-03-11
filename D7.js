@@ -3,6 +3,23 @@
   prima e gli ultimi 3 della seconda. Converti la stringa risultante in maiuscolo e mostrala con un console.log().
 */
 
+function concatenaStringhe(stringa1, stringa2) {
+  
+  var parte1 = stringa1.substring(0, 2);
+  
+  var parte2 = stringa2.substring(stringa2.length - 3);
+
+ 
+  var risultato = parte1 + parte2;
+
+
+  risultato = risultato.toUpperCase();
+
+ 
+  console.log(risultato);
+}
+
+
 /* ESERCIZIO 2 (for)
   Scrivi una funzione che torni un array di 10 elementi; ognuno di essi deve essere un valore random compreso tra 0 e 100 (incluso).
 */
